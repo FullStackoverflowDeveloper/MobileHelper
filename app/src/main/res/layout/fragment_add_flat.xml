@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Spinner
+            android:id="@+id/local4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="20dp" />
+        <Spinner
+            android:id="@+id/street4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="20dp" />
+        <Spinner
+            android:id="@+id/home4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="20dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/add_flat4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:autofillHints="name"
+            android:ems="10"
+            android:hint="Квартира"
+            android:inputType="number"
+            android:textSize="24sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/family4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:autofillHints="name"
+            android:ems="10"
+            android:hint="Фамилия"
+            android:textSize="24sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/name4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:autofillHints="name"
+            android:ems="10"
+            android:hint="Имя"
+            android:textSize="24sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/patronym4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:autofillHints="name"
+            android:ems="10"
+            android:hint="Отчество"
+            android:textSize="24sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/phone4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:autofillHints="name"
+            android:ems="10"
+            android:hint="Номер телефона"
+            android:inputType="phone"
+            android:textSize="24sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/numberCounter4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:autofillHints="name"
+            android:ems="10"
+            android:maxLength="7"
+            android:hint="Номер счетчика"
+            android:inputType="number"
+            android:textSize="24sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/plomb4"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Пломба на гайке"
+            android:maxLength="6"
+            android:inputType="number"
+            android:autofillHints="name"
+            android:textSize="24sp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/plug_plomb4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:autofillHints="name"
+            android:ems="10"
+            android:maxLength="5"
+            android:hint="Пломба-заглушка"
+            android:inputType="number"
+            android:textSize="24sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/readings4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:autofillHints="name"
+            android:maxLength="5"
+            android:ems="10"
+            android:hint="Показатели"
+            android:inputType="number"
+            android:textSize="24sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/save4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/black"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</ScrollView>

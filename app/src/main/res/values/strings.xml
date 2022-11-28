@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Помощник службы контроля</string>
+    <string name="helper">Мобильный помощник</string>
+    <string name="name">Служба контроля</string>
+    <string name="forgot">Забыли пароль?</string>
+    <string name="change_password">Сброс пароля</string>
+    <string name="enter_email">Введите email</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="tasks">Заявки</string>
+    <string name="work">Задачи</string>
+    <string name="nothing">Ничего не найдено</string>
+    <string name="again">Повторить</string>
+    <string name="username">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="patronym">Отчество</string>
+    <string name="save">Сформировать</string>
+    <string name="logout">Выйти</string>
+    <string name="add">add</string>
+    <string name="gps">gps</string>
+    <string name="person">person</string>
+    <string name="contact">contact</string>
+    <string name="calendar">calendar</string>
+    <string name="comment">comment</string>
+    <string-array name="work_types">
+        <item>Утечка газа</item>
+        <item>Замена счетчика</item>
+    </string-array>
+    <string name="drawer_open">Open navigation</string>
+    <string name="drawer_close">Close navigation</string>
+</resources>

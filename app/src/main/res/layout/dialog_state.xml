@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup
+        android:id="@+id/radio_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/radio_address"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:buttonTint="@color/primary"
+            android:layout_height="wrap_content"
+            android:text="Обьект существует"/>
+        <RadioButton
+            android:id="@+id/radio_problem"
+            android:textSize="16sp"
+            android:buttonTint="@color/primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Есть проблема"/>
+        <RadioButton
+            android:id="@+id/radio_task"
+            android:textSize="16sp"
+            android:buttonTint="@color/primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="На задаче"/>
+        <RadioButton
+            android:id="@+id/radio_work"
+            android:textSize="16sp"
+            android:buttonTint="@color/primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="На заявке"/>
+
+    </RadioGroup>
+</FrameLayout>

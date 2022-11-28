@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "121170228989",
+    "firebase_url": "https://mobilehelper-fd39a-default-rtdb.firebaseio.com",
+    "project_id": "mobilehelper-fd39a",
+    "storage_bucket": "mobilehelper-fd39a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121170228989:android:cbc0c459ab279d12027094",
+        "android_client_info": {
+          "package_name": "com.program.supgnhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121170228989-ot95i44n4hpuks49thvgtoa7trla62vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfE5xGu38MS1pGnalCqMyoMtdHTL3F9Jk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121170228989-ot95i44n4hpuks49thvgtoa7trla62vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

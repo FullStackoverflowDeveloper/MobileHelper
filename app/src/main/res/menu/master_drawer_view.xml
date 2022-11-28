@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Основные">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/person"
+                android:title="Профиль" />
+            <item
+                android:id="@+id/tasks"
+                android:icon="@drawable/add_foreground"
+                android:title="Сотрудники" />
+            <item
+                android:id="@+id/catalog"
+                android:icon="@drawable/search"
+                android:title="Каталог обьектов" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="Выйти" />
+            </group>
+        </menu>
+    </item>
+    <item android:title="Создание">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/add_local"
+                    android:icon="@drawable/add_foreground"
+                    android:title="Добавить район"/>
+                <item android:id="@+id/add_street"
+                    android:icon="@drawable/add_foreground"
+                    android:title="Добавить улицу"/>
+                <item android:id="@+id/add_home"
+                    android:icon="@drawable/add_foreground"
+                    android:title="Добавить дом"/>
+                <item android:id="@+id/add_flat"
+                    android:icon="@drawable/add_foreground"
+                    android:title="Добавить квартиру"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Дополнительные">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/about"
+                android:title="О приложении" />
+            </group>
+        </menu>
+    </item>
+</menu>
